@@ -1,0 +1,414 @@
+* {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    background-color: #CCF8B3;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7AC750;
+}
+
+/*COLORS*/
+.bg-pink-light {
+    background-color: #FFF6EF !important;
+}
+
+.bg-green {
+    background-color: #245F43 !important;
+}
+
+.bg-green-light {
+    background-color: #CCF8B3 !important;
+}
+
+.bg-green-meddiun {
+    background-color: #7AC750 !important;
+}
+.bg-silver{
+    background-color: rgb(238, 237, 237) !important;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+.submit-lente {
+    position: absolute;
+    left: 1rem;
+    z-index: 1000;
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 100%;
+    background-color: transparent;
+}
+
+.placeholder-light::placeholder {
+    color: rgba(255, 255, 255, 0.493) !important;
+}
+
+.div-shadow {
+    height: 100% !important;
+}
+
+.valorproduto {
+    color: #7AC750;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #7AC750;
+}
+
+.item-hover:hover {
+    cursor: pointer;
+    background-color: rgba(204, 198, 198, 0.25);
+}
+
+.login {
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+
+.login-visible {
+    opacity: 1;
+    display: flex;
+    pointer-events: all;
+}
+
+.login-hidden {
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+}
+
+.btn-entrar-popup {
+    width: 290px;
+    height: 40px;
+}
+
+.btn-popup {
+    width: 250px;
+    height: 50px;
+}
+
+.cart {
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+
+.cart-visible {
+    opacity: 1;
+    display: flex;
+    pointer-events: all;
+}
+
+.cart-hidden {
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+}
+
+.card {
+    
+    background-color: #F4F4F4 !important;
+}
+
+.card-title,
+.card-subtitle {
+    font-weight: 700;
+}
+
+.card-subtitle {
+    color: #7AC750 !important;
+}
+
+.quantity {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+    color: #245F43;
+    font-weight: 700;
+
+}
+
+#valor-total-flores,
+#valor-frete,
+#valor-valor-compra {
+    color: #245F43;
+}
+
+#label-total-flores,
+#label-frete,
+#label-descontos,
+#label-valor-compra {
+    font-weight: bold;
+}
+
+#valor-descontos {
+    color: #5F2424;
+}
+
+.btn-finalizar-compra {
+    width: 428px;
+    height: 62px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+
+}
+.buttonIcon{
+    background-color: #245F43;
+    border: none;
+    color: white;
+}
+.btn-warning{
+    background-color: white ;
+    border-radius: 25px;
+}
+
+#offcanvasScrolling{
+    width: 20vw;
+    height: 100vh;
+    
+}
+.navbar{
+    width: 80vw;
+    margin-left: 20%;
+}
+
+.form-card{
+    padding: 0px;
+   
+}
+.form-card-2{
+    padding-top: 30px;
+    
+}
+.form-card-3{
+    padding-top: 30px;
+    
+}
+.btn-adicionar{
+ position: static;
+ margin-top: 30px; 
+    
+}
+.aside{
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20%;
+}
+
+.more{
+    color: #245F43;
+}
+@media (max-width: 992px){
+    .aside{
+        width: 25%;
+    }
+}
+@media (max-width: 768px){
+    .aside{
+        width: 50px;
+    }
+}
+/* --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px; */
+
+
+.btn-voltar{
+    height: 30px;
+    width: 30px;
+    margin-top: 0%;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    
+}
+
+
+.prices{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    font-size: 30px;
+    font-weight: 700;
+    color: #7AC750;
+}
+.off{
+    font-size: 25px;
+    color: #ccc;
+    text-decoration: line-through;
+}
+.amount-produtos{
+    
+    background-color: #245F43;
+    padding: 10px 20px;
+   
+}
+.options-produtos{
+    display: flex;
+    gap: 20px;
+}
+.amount-produtos span{
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+.minus, .plus{
+    cursor: pointer;
+}
+.minus img{
+   width: 15px;
+}
+.plus img{
+    width: 15px;
+}
+.button-cart{
+    color: #F4F4F4;
+    background-color: #7AC750;
+    font-size: 20px;
+    font-weight: 700;
+}
+.button-cart img{
+   color: rgb(247, 205, 19);
+}
+.icons-stars{
+    color: rgb(247, 205, 19);
+    font-size: 140%;
+    stroke: #bda946;
+}
+.tumbnail-produto img{
+ width: 100%;
+}
+
+/*Tela-Sobre*/
+.imagens-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+
+}
+.container-card-sobre{
+    width: 1150px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-tela-sobre{
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 40px;
+    width: 250px;
+    background-color:#8DCB6B;
+    margin: 40px;
+    border-radius:40px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card-tela-sobre-centro{
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 31px;
+    width: 250px;
+    background-color:#8DCB6B;
+    margin: 40px;
+    border-radius:40px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.contander-texto-about-um{
+    text-align: justify;
+}
+.contander-texto-about-dois{
+    text-align: center;
+}
+.container-localizacao{
+    background-color: #245F43;
+    padding: 80px; 
+}
+.container-localizacao-dois{
+    margin-left: 12%; 
+}
+.texto-localizacao{
+    color: white;
+    margin-left: 7%;
+}
+/*Tela-Contatos*/
+.titulo-contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 32vh; 
+}
+.container-contatos{
+    background-color: #245F43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+}
+.container-card-contatos{
+    width: 1150px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.card-tela-contatos{
+    color: white;
+    position: relative;
+    text-align: left;
+    padding: 40px;
+    width: 300px;
+    background-color:#245F43;
+    margin: 40px;
+    border-radius:10px;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+.contander-texto-contatos .h5{
+    display: flex;
+}
+.card-tela-contatos .cor-texto-contatos{
+    color: rgb(199, 193, 193);
+}
+
+ .card-add{
+    margin-top: 150px;
+}
+.card-title-adm{
+    font-size: 40px;
+}
+.card-text-adm{
+    font-size: 20px;
+}
+.icon-user-adm{
+    margin-top: 350px;
+}
+.icon-tam-adm{
+    font-size: 35px;
+} 
